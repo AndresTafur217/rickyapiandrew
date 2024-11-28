@@ -1,0 +1,42 @@
+.contenido{
+    background: rgb(202, 202, 202);
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido .detalles{
+    width: 70%;
+    margin: 10px;
+    background: white;
+    border-radius: 15px;
+}
+
+.contenido .detalles img{
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.boton button{
+    background: blue;
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
